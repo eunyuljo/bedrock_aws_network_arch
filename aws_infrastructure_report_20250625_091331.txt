@@ -1,0 +1,141 @@
+======================================================================
+AWS INFRASTRUCTURE ANALYSIS REPORT
+======================================================================
+Generated: 2025-06-25 09:13:31
+Region: ap-northeast-2 (Seoul)
+Layout Complexity: high
+Spacing Multiplier: 1.8
+Diagram Direction: LR
+
+📊 INFRASTRUCTURE OVERVIEW
+------------------------------
+VPCs: 2
+Subnets: 13
+EC2 Instances: 7
+RDS Instances: 0
+Load Balancers: 0
+Internet Gateways: 2
+NAT Gateways: 1
+
+🏢 VPC #1: estaid-test-vpc
+----------------------------------------
+VPC ID: vpc-00e7e31d7427ae524
+CIDR Block: 10.0.0.0/16
+State: available
+Default VPC: No
+
+  📍 Subnets (9):
+    - estaid-workspace1-subnet-private3-ap-northeast-2c (PRIVATE)
+      CIDR: 10.0.160.0/20
+      AZ: ap-northeast-2c
+      Available IPs: 4090
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace2-subnet-private2-ap-northeast-2b (PRIVATE)
+      CIDR: 10.0.192.0/20
+      AZ: ap-northeast-2b
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace-subnet-public1-ap-northeast-2a (PUBLIC)
+      CIDR: 10.0.0.0/20
+      AZ: ap-northeast-2a
+      Available IPs: 4084
+      EC2 Instances: 6
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace-subnet-public3-ap-northeast-2c (PUBLIC)
+      CIDR: 10.0.32.0/20
+      AZ: ap-northeast-2c
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace1-subnet-private2-ap-northeast-2b (PRIVATE)
+      CIDR: 10.0.144.0/20
+      AZ: ap-northeast-2b
+      Available IPs: 4090
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace-subnet-public2-ap-northeast-2b (PUBLIC)
+      CIDR: 10.0.16.0/20
+      AZ: ap-northeast-2b
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace2-subnet-private1-ap-northeast-2a (PRIVATE)
+      CIDR: 10.0.176.0/20
+      AZ: ap-northeast-2a
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace1-subnet-private1-ap-northeast-2a (PRIVATE)
+      CIDR: 10.0.128.0/20
+      AZ: ap-northeast-2a
+      Available IPs: 4089
+      EC2 Instances: 1
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - estaid-workspace2-subnet-private3-ap-northeast-2c (PRIVATE)
+      CIDR: 10.0.208.0/20
+      AZ: ap-northeast-2c
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+
+🏢 VPC #2: VPC-2
+----------------------------------------
+VPC ID: vpc-089ab6b0a7985330a
+CIDR Block: 172.31.0.0/16
+State: available
+Default VPC: Yes
+
+  📍 Subnets (4):
+    - subnet-07f572882312ccd6e (PUBLIC)
+      CIDR: 172.31.0.0/20
+      AZ: ap-northeast-2a
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - subnet-097072640e56746e9 (PUBLIC)
+      CIDR: 172.31.48.0/20
+      AZ: ap-northeast-2d
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - subnet-06e7825c6307b8812 (PUBLIC)
+      CIDR: 172.31.32.0/20
+      AZ: ap-northeast-2c
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+    - subnet-02d5d0d5c693411f5 (PUBLIC)
+      CIDR: 172.31.16.0/20
+      AZ: ap-northeast-2b
+      Available IPs: 4091
+      EC2 Instances: 0
+      RDS Instances: 0
+      Load Balancers: 0
+
+

@@ -1,7 +1,7 @@
 
 ## 임시 결과물
 
-<!-- Uploading "aws_diagram_20250625_093537.png"... -->
+![Image](https://github.com/user-attachments/assets/43be4fd4-d57d-43cd-a494-b8ef9ccc325e)
 
 ## 추가 작업 진행 방향
 
